@@ -9,7 +9,7 @@ Lake, B. M. and Baroni, M. (2017). Still not systematic after all these years: O
 
 ### SCAN commands
 
-SCAN consists of a set of commands (see table) and their corresponding action sequences. These are the actions an agent should perform to execute the commands successfully. The commands and actions are defined compositionally based on primitives ("jump", "walk", "run", "turn left", etc.) and modifiers such as ("twice", "thrice", "and", "after", "around left", etc.). Here are some examples.
+SCAN consists of a set of commands (see table) and their corresponding action sequences. These are the actions an agent should perform to execute the commands successfully. The commands and actions are defined compositionally based on primitives ("jump", "walk", "run", "turn left", etc.) and modifiers such as "twice", "thrice", "and", "after", "around left", etc. Here are some examples.
 
 |Command | Action sequence |
 | --- | --- | 
