@@ -31,7 +31,7 @@ We also provide a set of standard train-test splits so researchers can compare r
 
 **Simple train-test split**    
 The simple train-test split used in the above paper is available here.
-The training set includes 80% of the data, and the remaining 20% are used for the test set.
+The training set includes 80% of the data, and the remaining 20% are used for the test set.    
 [tasks_train_simple.txt](simple_split/tasks_train_simple.txt)    
 [tasks_test_simple.txt](simple_split/tasks_test_simple.txt)
 
