@@ -54,6 +54,6 @@ This is similar to the split above, but the "turn left" command is added instead
 
 The folder [simple_split/size_variations](simple_split/size_variations) contains additional train-test splits that vary the amount of training data. Files are named "tasks_train_simple_pX.txt" where X is the percent of SCAN commands used for training.
 
-The folder [add_prim_split/with_additional_examples](add_prim_split/with_additiona_examples) contains variations of the setup for adding the primitive "jump" command, where both the primitive jump command and varying numbers of compositional jump commands are included in the training set. Files are named "tasks_train_addprim_complex_jump_numX_repY.txt" where X is the number of (randomly selected) compositional jump commands included in training, and Y denotes different replications of the random selection.
+The folder [add_prim_split/with_additional_examples](add_prim_split/with_additional_examples) contains variations of the setup for adding the primitive "jump" command, where both the primitive jump command and varying numbers of compositional jump commands are included in the training set. Files are named "tasks_train_addprim_complex_jump_numX_repY.txt" where X is the number of (randomly selected) compositional jump commands included in training, and Y denotes different replications of the random selection.
 
 Please refer to the paper above for a discussion of the additional splits.
