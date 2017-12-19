@@ -37,8 +37,8 @@ The training set includes 80% of the data, and the remaining 20% are used for th
 
 **Length train-test split**    
 In this split, algorithms are trained on shorter sequences (again, about 80% of the full set) and tested on longer sequences. Length is defined as the number of output actions.    
-[tasks_train_length.txt](simple_split/tasks_train_length.txt)   
-[tasks_test_length.txt](simple_split/tasks_test_length.txt)
+[tasks_train_length.txt](length_split/tasks_train_length.txt)   
+[tasks_test_length.txt](length_split/tasks_test_length.txt)
 
 **Adding a new primitive**    
 Here, the training set includes all of the compositional tasks that do not include "jump", as well as
