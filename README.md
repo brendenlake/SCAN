@@ -5,7 +5,7 @@ SCAN is a set of simple language-driven navigation tasks for studying compositio
 ### Citing this data set
 Please cite the following paper:
 
-Lake, B. M. and Baroni, M. (2017). [Still not systematic after all these years: On the compositional skills of sequence-to-sequence recurrent networks.](https://arxiv.org/abs/1711.00350) Preprint available on arXiv:1711.00350.
+Lake, B. M. and Baroni, M. (2017). [Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks.](https://arxiv.org/abs/1711.00350) Preprint available on arXiv:1711.00350.
 
 ### SCAN commands
 
