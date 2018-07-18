@@ -50,6 +50,18 @@ This is similar to the split above, but the "turn left" command is added instead
 [tasks_train_addprim_turn_left.txt](add_prim_split/tasks_train_addprim_turn_left.txt)   
 [tasks_test_addprim_turn_left.txt](add_prim_split/tasks_test_addprim_turn_left.txt)
 
+**Adding a new template**
+Here, the network is trained on all sequences except those containing a certain template (a complex subcommand, like "jump around right"), to which it must generalize at test time. There are 4 different splits corresponding to 4 different held-out templates: "jump around right", "*Primitive* right", "opposite right" and "around right".
+[template_split](template_split/)  
+
+**Adding primitive fillers**
+Here, the training set starts out having no commands containing "around right", but is gradually increased across conditions to include commands containing the expression "*Primitive* around right" for 0, 1, 2 or 3 different primitive fillers. The test set is held constant, including only examples with the subcommand "jump around right".
+[filler_split](filler_split/) 
+
+**Few-shot**
+This setting introduces a further level of granularity between the 0 filler and 1 filler conditions of the previous setting. Starting from the 0 filler condition, N new examples from the 1 filler condition are randomly sampled and added to the training set, where N varies from 1 to 1024 in powers of 2. For each N, 5 splits are available, corresponding to 5 different random samples.
+[few_shot_split](few_shot_split/) 
+
 **Additional splits**
 
 The folder [simple_split/size_variations](simple_split/size_variations) contains additional train-test splits that vary the amount of training data. Files are named "tasks_train_simple_pX.txt" where X is the percent of SCAN commands used for training.
